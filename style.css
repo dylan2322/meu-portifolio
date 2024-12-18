@@ -40,34 +40,34 @@ body {
 
 /*Estilo do Cabeçalho */
 
-header {
+fixed-header {
     padding: 40px 4%;
 
 }
-header > .interface {
+fixed-header > .interface {
    display: flex; 
    align-items: center;
    justify-content: space-between;
 
 }
-header a{
+fixed-header a{
     color: #7d7d7d;;
     text-decoration: none;
     display: inline-block;
     transition: 2s;
 }
 
-header a:hover{
+fixed-header a:hover{
     color: #fff;
     transform: scale(1.05);
 }
 
 
-header nav ul{
+fixed-header nav ul{
     list-style-type: none;
 }
 
-header nav ul li{
+fixed-header nav ul li{
     display: inline-block;
     padding: 0 40px;
 }
